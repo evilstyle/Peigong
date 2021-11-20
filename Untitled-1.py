@@ -1,10 +1,4 @@
 #!/usr/bin/python3 
-'''
-a=0
-for a in range(10):
-   print(a)
-   a=a+1
-'''
 sites = ["Baidu", "Google","Runoob","Taobao"]
 for site in sites:
     if site == "Runoob":
