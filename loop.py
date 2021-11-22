@@ -1,5 +1,8 @@
 num =1
-while num<11:
-    print(num)
+numAll =0
+while num <101:
+    if num % 2 == 1:
+        # print(num)
+        numAll=num+numAll
     num = num +1
-print("ending")
+    print(numAll)
