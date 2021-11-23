@@ -1,8 +1,8 @@
 num =1
-numAll =0
+total =0
 while num <101:
     if num % 2 == 1:
         print(num)
-        numAll=num+numAll
+        total +=num
     num += 1
-    print(numAll)
+    print(total)
