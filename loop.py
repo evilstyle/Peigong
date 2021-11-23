@@ -2,7 +2,7 @@ num =1
 numAll =0
 while num <101:
     if num % 2 == 1:
-        # print(num)
+        print(num)
         numAll=num+numAll
-    num = num +1
+    num += 1
     print(numAll)
